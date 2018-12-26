@@ -79,7 +79,7 @@ function handleInputNoMarkupNoWolfram()
     console.log("output expression:"+outstring); //some debugging info
 
 	div = document.getElementById( 'outputexpressions' );
-	outstring = "&emsp; "+outstring+"<br>"+solutionstring;
+	outstring = "&emsp; "+outstring+";<br>"+solutionstring;
     console.log("final string:"+outstring); //debugging info
     div.insertAdjacentHTML( 'beforeend', outstring ); //append the content to the page
 }
